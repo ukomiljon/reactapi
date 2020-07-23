@@ -26,7 +26,7 @@ export class ReportsController {
     update(@Param('id') id:string, @Body() report:any) {
         return this.reportsService.update(id, report)  
     }
-
+cd 
     @Delete(':id') //'localhost:3000/reports/123
     delete(@Param('id') id:string) {
         return this.reportsService.delete(id)
